@@ -1,0 +1,6 @@
+name: TPplugin
+main: ivans.tp.TpPlugin
+version: 0.0.1
+commands:
+  fly :
+    description: Tp a/the player to player
