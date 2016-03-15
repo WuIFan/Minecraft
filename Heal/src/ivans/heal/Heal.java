@@ -36,7 +36,8 @@ public class Heal extends JavaPlugin{
 					Player targetPlayer = player.getServer().getPlayer(args[0]);
 					targetPlayer.setHealth(20);
 					targetPlayer.setFireTicks(0);
-					player.sendMessage(ChatColor.GREEN + "干干!");
+					player.sendMessage(ChatColor.GREEN + "и干干!");
+					targetPlayer.sendMessage(ChatColor.GREEN + "稰谅"+player.getDisplayName() +"腊干干");
 				}
 			}
 			else{

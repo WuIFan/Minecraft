@@ -1,6 +1,6 @@
 name: Healer
 main: ivans.heal.Heal
-version: 0.0.1
+version: 1.0.0
 commands:
   heal :
     description: Heal the / a player.
