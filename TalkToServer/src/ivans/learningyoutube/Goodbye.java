@@ -13,7 +13,7 @@ public class Goodbye implements CommandExecutor{
 		Player player = (Player) sender;
 		if(commandLable.equalsIgnoreCase("byebye")){		
 			player.sendMessage(ChatColor.LIGHT_PURPLE+"88888");
-			Location l = new Location(player.getWorld(),0,64,0);
+			Location l = new Location(player.getWorld(),0,500,0);
 			player.teleport(l);
 		}		
 	

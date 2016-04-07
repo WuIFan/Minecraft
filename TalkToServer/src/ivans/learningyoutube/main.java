@@ -22,6 +22,7 @@ public class main extends JavaPlugin{
 		getCommand("Hello").setExecutor(new Hello());
 		getCommand("byebye").setExecutor(new Goodbye());
 	}
-
+	
 	
 }
+
