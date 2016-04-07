@@ -1,6 +1,8 @@
 name: SayHello
 main: ivans.learningyoutube.main
-version: 2.0.1
+version: 3.0.1
 commands:
   Hello :
     description: send to player.
+  byebye:
+    description: say goodbye
